@@ -1,0 +1,2 @@
+# hack-wifi-tunisia
+ooredooand orange tunisia  routers are vulnerable to weak cipher attacks. It is possible to generate the default WEP/WPA key of Huawei HG520 routers. The purpose of this document is to explain the process of developing a key generator for these devices.     Huawei router models HG520b and HG520c contain a key generator command (mac2wepkey) in their TELNET interface. They also contain a command to change the MAC address (fakemac).     It is possible to change our MAC to generate the default WEP key of a MAC of our choosing.   
